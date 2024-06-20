@@ -3,7 +3,7 @@ package Model;
 public class Administradores {
     private int id_admin;
     private int id_usuario;
-    private int numero_admin;
+    private int number_admin;
 
     public int getId_admin() {
         return id_admin;
@@ -21,11 +21,11 @@ public class Administradores {
         this.id_usuario = id_usuario;
     }
 
-    public int getNumero_admin() {
-        return numero_admin;
+    public int getNumber_admin() {
+        return number_admin;
     }
 
-    public void setNumero_admin(int numero_admin) {
-        this.numero_admin = numero_admin;
+    public void setNumber_admin(int number_admin) {
+        this.number_admin = number_admin;
     }
 }
