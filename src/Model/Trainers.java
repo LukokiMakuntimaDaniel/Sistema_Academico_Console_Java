@@ -1,6 +1,6 @@
 package Model;
 
-public class Trainer {
+public class Trainers {
     private int id_trainer;
     private int id_user;
     private int trainer_number;

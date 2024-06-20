@@ -2,7 +2,7 @@ package Model;
 
 public class Administradores {
     private int id_admin;
-    private int id_usuario;
+    private int id_user;
     private int number_admin;
 
     public int getId_admin() {
@@ -13,12 +13,12 @@ public class Administradores {
         this.id_admin = id_admin;
     }
 
-    public int getId_usuario() {
-        return id_usuario;
+    public int getId_user() {
+        return id_user;
     }
 
-    public void setId_usuario(int id_usuario) {
-        this.id_usuario = id_usuario;
+    public void setId_user(int id_user) {
+        this.id_user = id_user;
     }
 
     public int getNumber_admin() {
