@@ -6,6 +6,7 @@ import Model.Editions;
 import java.util.List;
 
 public class EditionService {
+
     public List<Editions> index(){
 
         return null;
