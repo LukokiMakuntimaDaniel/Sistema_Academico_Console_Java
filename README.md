@@ -9,7 +9,7 @@ O Projeto Gestão Acadêmica busca criar um sistema de integração acadêmica a
 
 ### Pré-requisitos
 - JDK 11 ou superior
-- Banco de dados MySQL ou PostgreSQL
+- Banco de dados MySQL
 
 ### Instalação
 1. Clone o repositório:
