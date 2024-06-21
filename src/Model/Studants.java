@@ -1,6 +1,6 @@
 package Model;
 
-public class Studants {
+public class Studants extends Users {
     private int id_studant;
     private int id_user;
     private int student_number;

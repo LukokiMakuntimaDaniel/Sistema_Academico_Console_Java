@@ -1,4 +1,4 @@
 package Services;
 
-public class UserController {
+public class UserService {
 }

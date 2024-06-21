@@ -1,6 +1,6 @@
 package Model;
 
-public class Administradores {
+public class Administradores extends Users {
     private int id_admin;
     private int id_user;
     private int number_admin;

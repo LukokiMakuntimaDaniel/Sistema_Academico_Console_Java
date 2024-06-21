@@ -1,6 +1,6 @@
 package Model;
 
-public class Secretary {
+public class Secretary extends Users {
     private int id_secretary;
     private int id_user;
     private int number_secretary;
