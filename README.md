@@ -14,5 +14,5 @@ O Projeto Gestão Acadêmica busca criar um sistema de integração acadêmica a
 ### Instalação
 1. Clone o repositório:
    ```bash
-   git clone [https://github.com/SeuUsuario/ProjetoGestaoAcademica.git](https://github.com/LukokiMakuntimaDaniel/Sistema_Academico_Console_Java.git)
+   git clone https://github.com/LukokiMakuntimaDaniel/Sistema_Academico_Console_Java.git
    cd ProjetoGestaoAcademica
