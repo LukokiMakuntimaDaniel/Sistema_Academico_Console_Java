@@ -1,41 +1,41 @@
 package Model;
 
 public class Secretary extends Users {
-    private int id_secretary;
-    private int id_user;
-    private int number_secretary;
-    private String course_taken;
+    private int idSecretary;
+    private int idUser;
+    private int numberSecretary;
+    private String courseTaken;
 
-    public int getId_secretary() {
-        return id_secretary;
+
+    public int getIdSecretary() {
+        return idSecretary;
     }
 
-    public void setId_secretary(int id_secretary) {
-        this.id_secretary = id_secretary;
+    public void setIdSecretary(int idSecretary) {
+        this.idSecretary = idSecretary;
     }
 
-    public String getCourse_taken() {
-        return course_taken;
+    public int getIdUser() {
+        return idUser;
     }
 
-    public void setCourse_taken(String course_taken) {
-        this.course_taken = course_taken;
+    public void setIdUser(int idUser) {
+        this.idUser = idUser;
     }
 
-    public int getNumber_secretary() {
-        return number_secretary;
+    public int getNumberSecretary() {
+        return numberSecretary;
     }
 
-    public void setNumber_secretary(int number_secretary) {
-        this.number_secretary = number_secretary;
+    public void setNumberSecretary(int numberSecretary) {
+        this.numberSecretary = numberSecretary;
     }
 
-    public int getId_user() {
-        return id_user;
+    public String getCourseTaken() {
+        return courseTaken;
     }
 
-    public void setId_user(int id_user) {
-        this.id_user = id_user;
+    public void setCourseTaken(String courseTaken) {
+        this.courseTaken = courseTaken;
     }
-
 }

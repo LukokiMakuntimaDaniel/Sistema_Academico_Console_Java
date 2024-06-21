@@ -3,44 +3,44 @@ package Model;
 import java.util.Date;
 
 public class Users {
-    private int id_user;
-    private String name_user;
-    private Date date_of_birth;
+    private int idUser;
+    private String nameUser;
+    private Date dateOfBirth;
     private String nationality;
-    private String number_of_bi;
+    private String numberOfBi;
     private String passport;
-    private Date date_of_issue;
-    private Date expiration_date;
+    private Date dateOfIssue;
+    private Date expirationDate;
     private String gender;
     private String email;
-    private String  telephone;
+    private String telephone;
     private String password;
-    private String user_type;
+    private String userType;
     private String municipality;
     private String neighborhood;
 
-    public int getId_user() {
-        return id_user;
+    public int getIdUser() {
+        return idUser;
     }
 
-    public void setId_user(int id_user) {
-        this.id_user = id_user;
+    public void setIdUser(int idUser) {
+        this.idUser = idUser;
     }
 
-    public String getName_user() {
-        return name_user;
+    public String getNameUser() {
+        return nameUser;
     }
 
-    public void setName_user(String name_user) {
-        this.name_user = name_user;
+    public void setNameUser(String nameUser) {
+        this.nameUser = nameUser;
     }
 
-    public Date getDate_of_birth() {
-        return date_of_birth;
+    public Date getDateOfBirth() {
+        return dateOfBirth;
     }
 
-    public void setDate_of_birth(Date date_of_birth) {
-        this.date_of_birth = date_of_birth;
+    public void setDateOfBirth(Date dateOfBirth) {
+        this.dateOfBirth = dateOfBirth;
     }
 
     public String getNationality() {
@@ -51,12 +51,12 @@ public class Users {
         this.nationality = nationality;
     }
 
-    public String getNumber_of_bi() {
-        return number_of_bi;
+    public String getNumberOfBi() {
+        return numberOfBi;
     }
 
-    public void setNumber_of_bi(String number_of_bi) {
-        this.number_of_bi = number_of_bi;
+    public void setNumberOfBi(String numberOfBi) {
+        this.numberOfBi = numberOfBi;
     }
 
     public String getPassport() {
@@ -67,20 +67,20 @@ public class Users {
         this.passport = passport;
     }
 
-    public Date getDate_of_issue() {
-        return date_of_issue;
+    public Date getDateOfIssue() {
+        return dateOfIssue;
     }
 
-    public void setDate_of_issue(Date date_of_issue) {
-        this.date_of_issue = date_of_issue;
+    public void setDateOfIssue(Date dateOfIssue) {
+        this.dateOfIssue = dateOfIssue;
     }
 
-    public Date getExpiration_date() {
-        return expiration_date;
+    public Date getExpirationDate() {
+        return expirationDate;
     }
 
-    public void setExpiration_date(Date expiration_date) {
-        this.expiration_date = expiration_date;
+    public void setExpirationDate(Date expirationDate) {
+        this.expirationDate = expirationDate;
     }
 
     public String getGender() {
@@ -115,12 +115,12 @@ public class Users {
         this.password = password;
     }
 
-    public String getUser_type() {
-        return user_type;
+    public String getUserType() {
+        return userType;
     }
 
-    public void setUser_type(String user_type) {
-        this.user_type = user_type;
+    public void setUserType(String userType) {
+        this.userType = userType;
     }
 
     public String getMunicipality() {

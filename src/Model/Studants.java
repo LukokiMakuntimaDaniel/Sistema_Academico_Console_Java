@@ -1,31 +1,31 @@
 package Model;
 
 public class Studants extends Users {
-    private int id_studant;
-    private int id_user;
-    private int student_number;
+    private int idStudant;
+    private int idUser;
+    private int studentNumber;
 
-    public int getId_studant() {
-        return id_studant;
+    public int getIdUser() {
+        return idUser;
     }
 
-    public void setId_studant(int id_studant) {
-        this.id_studant = id_studant;
+    public void setIdUser(int idUser) {
+        this.idUser = idUser;
     }
 
-    public int getId_user() {
-        return id_user;
+    public int getStudentNumber() {
+        return studentNumber;
     }
 
-    public void setId_user(int id_user) {
-        this.id_user = id_user;
+    public void setStudentNumber(int studentNumber) {
+        this.studentNumber = studentNumber;
     }
 
-    public int getStudent_number() {
-        return student_number;
+    public int getIdStudant() {
+        return idStudant;
     }
 
-    public void setStudent_number(int student_number) {
-        this.student_number = student_number;
+    public void setIdStudant(int idStudant) {
+        this.idStudant = idStudant;
     }
 }

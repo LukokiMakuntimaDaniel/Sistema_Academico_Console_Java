@@ -1,40 +1,40 @@
 package Model;
 
 public class Courses {
-    private int id_course;
-    private String name_course;
-    private int id_faculty;
-    private int qtd_module;
+    private int idCourse;
+    private String nameCourse;
+    private int idCollege;
+    private int qtdModule;
 
-    public int getId_course() {
-        return id_course;
+    public int getIdCourse() {
+        return idCourse;
     }
 
-    public void setId_course(int id_course) {
-        this.id_course = id_course;
+    public void setIdCourse(int idCourse) {
+        this.idCourse = idCourse;
     }
 
-    public String getName_course() {
-        return name_course;
+    public String getNameCourse() {
+        return nameCourse;
     }
 
-    public void setName_course(String name_course) {
-        this.name_course = name_course;
+    public void setNameCourse(String nameCourse) {
+        this.nameCourse = nameCourse;
     }
 
-    public int getId_faculty() {
-        return id_faculty;
+    public int getIdCollege() {
+        return idCollege;
     }
 
-    public void setId_faculty(int id_faculty) {
-        this.id_faculty = id_faculty;
+    public void setIdCollege(int idCollege) {
+        this.idCollege = idCollege;
     }
 
-    public int getQtd_module() {
-        return qtd_module;
+    public int getQtdModule() {
+        return qtdModule;
     }
 
-    public void setQtd_module(int qtd_module) {
-        this.qtd_module = qtd_module;
+    public void setQtdModule(int qtdModule) {
+        this.qtdModule = qtdModule;
     }
 }

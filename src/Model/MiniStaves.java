@@ -3,54 +3,38 @@ package Model;
 import java.sql.Timestamp;
 
 public class MiniStaves {
-    private int id_mini_stave;
-    private int id_studant;
-    private int id_trainer;
-    private int id_module;
-    private int id_designation;
+    private int idMiniStave;
+    private int idStudant;
+    private int idTrainer;
+    private int idModule;
+    private int idDesignation;
     private String note;
     private String descrition;
     private String signature;
-    private Timestamp date_stave;
+    private Timestamp dateStave;
 
-    public int getId_mini_stave() {
-        return id_mini_stave;
+    public int getIdStudant() {
+        return idStudant;
     }
 
-    public void setId_mini_stave(int id_mini_stave) {
-        this.id_mini_stave = id_mini_stave;
+    public void setIdStudant(int idStudant) {
+        this.idStudant = idStudant;
     }
 
-    public int getId_studant() {
-        return id_studant;
+    public int getIdTrainer() {
+        return idTrainer;
     }
 
-    public void setId_studant(int id_studant) {
-        this.id_studant = id_studant;
+    public void setIdTrainer(int idTrainer) {
+        this.idTrainer = idTrainer;
     }
 
-    public int getId_module() {
-        return id_module;
+    public int getIdModule() {
+        return idModule;
     }
 
-    public void setId_module(int id_module) {
-        this.id_module = id_module;
-    }
-
-    public int getId_trainer() {
-        return id_trainer;
-    }
-
-    public void setId_trainer(int id_trainer) {
-        this.id_trainer = id_trainer;
-    }
-
-    public int getId_designation() {
-        return id_designation;
-    }
-
-    public void setId_designation(int id_designation) {
-        this.id_designation = id_designation;
+    public void setIdModule(int idModule) {
+        this.idModule = idModule;
     }
 
     public String getNote() {
@@ -59,6 +43,14 @@ public class MiniStaves {
 
     public void setNote(String note) {
         this.note = note;
+    }
+
+    public int getIdDesignation() {
+        return idDesignation;
+    }
+
+    public void setIdDesignation(int idDesignation) {
+        this.idDesignation = idDesignation;
     }
 
     public String getDescrition() {
@@ -77,11 +69,11 @@ public class MiniStaves {
         this.signature = signature;
     }
 
-    public Timestamp getDate_stave() {
-        return date_stave;
+    public Timestamp getDateStave() {
+        return dateStave;
     }
 
-    public void setDate_stave(Timestamp date_stave) {
-        this.date_stave = date_stave;
+    public void setDateStave(Timestamp dateStave) {
+        this.dateStave = dateStave;
     }
 }

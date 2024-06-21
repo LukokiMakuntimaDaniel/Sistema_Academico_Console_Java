@@ -5,6 +5,7 @@ import Model.Users;
 import java.util.List;
 
 public class UserController {
+
     public List<Users> index(){
 
         return null;

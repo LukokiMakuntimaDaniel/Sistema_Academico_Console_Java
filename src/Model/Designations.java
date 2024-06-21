@@ -1,25 +1,25 @@
 package Model;
 
 public class Designations {
-    public int id_designation;
-    public String name_designation;
+    public int idDesignation;
+    public String nameDesignation;
     public String abbreviation;
-    public int id_module;
+    public int idModule;
 
-    public int getId_designation() {
-        return id_designation;
+    public int getIdDesignation() {
+        return idDesignation;
     }
 
-    public void setId_designation(int id_designation) {
-        this.id_designation = id_designation;
+    public void setIdDesignation(int idDesignation) {
+        this.idDesignation = idDesignation;
     }
 
-    public String getName_designation() {
-        return name_designation;
+    public String getNameDesignation() {
+        return nameDesignation;
     }
 
-    public void setName_designation(String name_designation) {
-        this.name_designation = name_designation;
+    public void setNameDesignation(String nameDesignation) {
+        this.nameDesignation = nameDesignation;
     }
 
     public String getAbbreviation() {
@@ -30,11 +30,11 @@ public class Designations {
         this.abbreviation = abbreviation;
     }
 
-    public int getId_module() {
-        return id_module;
+    public int getIdModule() {
+        return idModule;
     }
 
-    public void setId_module(int id_module) {
-        this.id_module = id_module;
+    public void setIdModule(int idModule) {
+        this.idModule = idModule;
     }
 }

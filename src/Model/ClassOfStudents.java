@@ -1,31 +1,31 @@
 package Model;
 
 public class ClassOfStudents {
-    private int id_class_of_student;
-    private int id_studant;
-    private int id_class;
+    private int idClassOfStudent;
+    private int idStudant;
+    private int idClass;
 
-    public int getId_class_of_student() {
-        return id_class_of_student;
+    public int getIdClassOfStudent() {
+        return idClassOfStudent;
     }
 
-    public void setId_class_of_student(int id_class_of_student) {
-        this.id_class_of_student = id_class_of_student;
+    public void setIdClassOfStudent(int idClassOfStudent) {
+        this.idClassOfStudent = idClassOfStudent;
     }
 
-    public int getId_studant() {
-        return id_studant;
+    public int getIdClass() {
+        return idClass;
     }
 
-    public void setId_studant(int id_studant) {
-        this.id_studant = id_studant;
+    public void setIdClass(int idClass) {
+        this.idClass = idClass;
     }
 
-    public int getId_class() {
-        return id_class;
+    public int getIdStudant() {
+        return idStudant;
     }
 
-    public void setId_class(int id_class) {
-        this.id_class = id_class;
+    public void setIdStudant(int idStudant) {
+        this.idStudant = idStudant;
     }
 }

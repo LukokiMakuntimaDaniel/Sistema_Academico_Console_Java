@@ -3,17 +3,9 @@ package Model;
 import java.util.Date;
 
 public class Editions {
-    private int id_edition;
+    private int idEdition;
     private String name,description;
-    private Date start_date,end_date ;
-
-    public int getId_edition() {
-        return id_edition;
-    }
-
-    public void setId_edition(int id_edition) {
-        this.id_edition = id_edition;
-    }
+    private Date startDate,endDate;
 
     public String getName() {
         return name;
@@ -31,19 +23,27 @@ public class Editions {
         this.description = description;
     }
 
-    public Date getStart_date() {
-        return start_date;
+    public int getIdEdition() {
+        return idEdition;
     }
 
-    public void setStart_date(Date start_date) {
-        this.start_date = start_date;
+    public void setIdEdition(int idEdition) {
+        this.idEdition = idEdition;
     }
 
-    public Date getEnd_date() {
-        return end_date;
+    public Date getStartDate() {
+        return startDate;
     }
 
-    public void setEnd_date(Date end_date) {
-        this.end_date = end_date;
+    public void setStartDate(Date startDate) {
+        this.startDate = startDate;
+    }
+
+    public Date getEndDate() {
+        return endDate;
+    }
+
+    public void setEndDate(Date endDate) {
+        this.endDate = endDate;
     }
 }

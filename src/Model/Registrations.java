@@ -3,67 +3,67 @@ package Model;
 import java.util.Date;
 
 public class Registrations {
-    private int id_registration;
-    private String course_you_graduated_from;
-    private int id_course_to_register;
-    private int id_user;
-    private int id_university;
-    private String type_of_candidate;
+    private int idRegistration;
+    private String courseYouGraduatedFrom;
+    private int idCourseToRegister;
+    private int idUser;
+    private int idUniversity;
+    private String typeOfCandidate;
     private String state;
-    private String reasons_for_applying;
-    private String reason_for_choosing_university;
-    private String activity_institution;
+    private String reasonsForApplying;
+    private String reasonForChoosingUniversity;
+    private String activityInstitution;
     private String workplace;
-    private String job_function;
-    private String payment_method;
-    private Date date_of_birth;
+    private String jobFunction;
+    private String paymentMethod;
+    private Date dateOfBirth;
 
-    public int getId_registration() {
-        return id_registration;
+    public int getIdRegistration() {
+        return idRegistration;
     }
 
-    public void setId_registration(int id_registration) {
-        this.id_registration = id_registration;
+    public void setIdRegistration(int idRegistration) {
+        this.idRegistration = idRegistration;
     }
 
-    public String getCourse_you_graduated_from() {
-        return course_you_graduated_from;
+    public String getCourseYouGraduatedFrom() {
+        return courseYouGraduatedFrom;
     }
 
-    public void setCourse_you_graduated_from(String course_you_graduated_from) {
-        this.course_you_graduated_from = course_you_graduated_from;
+    public void setCourseYouGraduatedFrom(String courseYouGraduatedFrom) {
+        this.courseYouGraduatedFrom = courseYouGraduatedFrom;
     }
 
-    public int getId_course_to_register() {
-        return id_course_to_register;
+    public int getIdCourseToRegister() {
+        return idCourseToRegister;
     }
 
-    public void setId_course_to_register(int id_course_to_register) {
-        this.id_course_to_register = id_course_to_register;
+    public void setIdCourseToRegister(int idCourseToRegister) {
+        this.idCourseToRegister = idCourseToRegister;
     }
 
-    public int getId_university() {
-        return id_university;
+    public int getIdUser() {
+        return idUser;
     }
 
-    public void setId_university(int id_university) {
-        this.id_university = id_university;
+    public void setIdUser(int idUser) {
+        this.idUser = idUser;
     }
 
-    public int getId_user() {
-        return id_user;
+    public int getIdUniversity() {
+        return idUniversity;
     }
 
-    public void setId_user(int id_user) {
-        this.id_user = id_user;
+    public void setIdUniversity(int idUniversity) {
+        this.idUniversity = idUniversity;
     }
 
-    public String getType_of_candidate() {
-        return type_of_candidate;
+    public String getTypeOfCandidate() {
+        return typeOfCandidate;
     }
 
-    public void setType_of_candidate(String type_of_candidate) {
-        this.type_of_candidate = type_of_candidate;
+    public void setTypeOfCandidate(String typeOfCandidate) {
+        this.typeOfCandidate = typeOfCandidate;
     }
 
     public String getState() {
@@ -74,28 +74,28 @@ public class Registrations {
         this.state = state;
     }
 
-    public String getReasons_for_applying() {
-        return reasons_for_applying;
+    public String getReasonsForApplying() {
+        return reasonsForApplying;
     }
 
-    public void setReasons_for_applying(String reasons_for_applying) {
-        this.reasons_for_applying = reasons_for_applying;
+    public void setReasonsForApplying(String reasonsForApplying) {
+        this.reasonsForApplying = reasonsForApplying;
     }
 
-    public String getReason_for_choosing_university() {
-        return reason_for_choosing_university;
+    public String getReasonForChoosingUniversity() {
+        return reasonForChoosingUniversity;
     }
 
-    public void setReason_for_choosing_university(String reason_for_choosing_university) {
-        this.reason_for_choosing_university = reason_for_choosing_university;
+    public void setReasonForChoosingUniversity(String reasonForChoosingUniversity) {
+        this.reasonForChoosingUniversity = reasonForChoosingUniversity;
     }
 
-    public String getActivity_Institution() {
-        return activity_institution;
+    public String getActivityInstitution() {
+        return activityInstitution;
     }
 
-    public void setActivity_institution(String activity_Institution) {
-        this.activity_institution = activity_Institution;
+    public void setActivityInstitution(String activityInstitution) {
+        this.activityInstitution = activityInstitution;
     }
 
     public String getWorkplace() {
@@ -106,27 +106,27 @@ public class Registrations {
         this.workplace = workplace;
     }
 
-    public String getJob_function() {
-        return job_function;
+    public String getJobFunction() {
+        return jobFunction;
     }
 
-    public void setJob_function(String job_function) {
-        this.job_function = job_function;
+    public void setJobFunction(String jobFunction) {
+        this.jobFunction = jobFunction;
     }
 
-    public String getPayment_method() {
-        return payment_method;
+    public String getPaymentMethod() {
+        return paymentMethod;
     }
 
-    public void setPayment_method(String payment_method) {
-        this.payment_method = payment_method;
+    public void setPaymentMethod(String paymentMethod) {
+        this.paymentMethod = paymentMethod;
     }
 
-    public Date getDate_of_birth() {
-        return date_of_birth;
+    public Date getDateOfBirth() {
+        return dateOfBirth;
     }
 
-    public void setDate_of_birth(Date date_of_birth) {
-        this.date_of_birth = date_of_birth;
+    public void setDateOfBirth(Date dateOfBirth) {
+        this.dateOfBirth = dateOfBirth;
     }
 }
