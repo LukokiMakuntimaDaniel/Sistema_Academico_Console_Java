@@ -2,7 +2,7 @@ package Model;
 
 import java.sql.Timestamp;
 
-public class Mini_Staves {
+public class MiniStaves {
     private int id_mini_stave;
     private int id_studant;
     private int id_trainer;
