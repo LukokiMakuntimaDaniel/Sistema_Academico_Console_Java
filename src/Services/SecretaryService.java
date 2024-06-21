@@ -1,21 +1,21 @@
 package Services;
 
-import Model.Secretary;
+import Model.Secretars;
 
 import java.util.List;
 
 public class SecretaryService {
-    public List<Secretary> index(){
+    public List<Secretars> index(){
 
         return null;
     }
 
-    public boolean store(Secretary secretary){
+    public boolean store(Secretars secretary){
 
         return true;
     }
 
-    public boolean update(Secretary secretary){
+    public boolean update(Secretars secretary){
 
 
         return false;
@@ -27,7 +27,7 @@ public class SecretaryService {
         return false;
     }
 
-    public Secretary show(int id){
+    public Secretars show(int id){
 
 
         return null;

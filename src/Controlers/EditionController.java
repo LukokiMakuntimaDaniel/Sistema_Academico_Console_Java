@@ -1,21 +1,21 @@
 package Controlers;
 
-import Model.Secretars;
+import Model.Editions;
 
 import java.util.List;
 
-public class SecretaryController {
-    public List<Secretars> index(){
+public class EditionController {
+    public List<Editions> index(){
 
         return null;
     }
 
-    public boolean store(Secretars secretary){
+    public boolean store(Editions course){
 
         return true;
     }
 
-    public boolean update(Secretars secretary){
+    public boolean update(Editions course){
 
 
         return false;
@@ -27,7 +27,7 @@ public class SecretaryController {
         return false;
     }
 
-    public Secretars show(int id){
+    public CourseController show(int id){
 
 
         return null;
