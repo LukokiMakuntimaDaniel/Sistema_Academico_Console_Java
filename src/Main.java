@@ -32,7 +32,9 @@ public class Main {
         editions.setDescription("muita coisa");
         editions.setStartDate(startDate);
         editions.setEndDate(endDate);
-        editionService.update(2,editions);
+       // editionService.store(editions);
+        //editionService.store(editions);
+        editionService.remove(4);
         System.out.println(editionService.index().get(1).getName());
 
     }

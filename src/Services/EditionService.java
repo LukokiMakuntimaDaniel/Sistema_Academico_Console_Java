@@ -73,9 +73,15 @@ public class EditionService {
     }
 
     public boolean remove(int id){
-
-
-        return false;
+        sqlStatement = "delete from editions where idEdition =?";
+        try {
+            preparedStatement = dataConection.getConnection().prepareStatement(sqlStatement);
+            preparedStatement.setInt(1,id);
+            preparedStatement.execute();
+            return  true;
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
     }
 
     public CourseController show(int id){
