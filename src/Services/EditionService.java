@@ -1,9 +1,5 @@
 package Services;
-
-import Controlers.CourseController;
 import Model.Editions;
-
-import java.sql.Date;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -31,6 +27,7 @@ public class EditionService {
                 edition.setEndDate(resultSet.getDate("endDate"));
                 editions.add(edition);
             }
+            resultSet.close();
             dataConection.closeStatement();
             dataConection.closeConnection();
             return editions;
@@ -84,9 +81,23 @@ public class EditionService {
         }
     }
 
-    public CourseController show(int id){
-
-
-        return null;
+    public Editions show(int id){
+        sqlStatement = "select * from editions where idEdition=?";
+        Editions editions = new Editions();
+        try {
+            preparedStatement = dataConection.getConnection().prepareStatement(sqlStatement);
+            preparedStatement.setInt(1,id);
+            resultSet = preparedStatement.executeQuery();
+            while (resultSet.next()){
+                editions.setName(resultSet.getString("name"));
+                editions.setIdEdition(resultSet.getInt("idEdition"));
+                editions.setStartDate(resultSet.getDate("startDate"));
+                editions.setEndDate(resultSet.getDate("endDate"));
+                editions.setDescription(resultSet.getString("description"));
+            }
+            return editions;
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
     }
 }

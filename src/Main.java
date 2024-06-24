@@ -34,8 +34,9 @@ public class Main {
         editions.setEndDate(endDate);
        // editionService.store(editions);
         //editionService.store(editions);
-        editionService.remove(4);
-        System.out.println(editionService.index().get(1).getName());
+       // editionService.remove(4);
+        System.out.println(editionService.show(3).toString());
+        //System.out.println(editionService.index().get(1).getName());
 
     }
 }
