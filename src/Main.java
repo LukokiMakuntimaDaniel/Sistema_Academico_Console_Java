@@ -1,6 +1,10 @@
 import Model.Editions;
+import Model.University;
+import Services.CollegeService;
 import Services.EditionService;
+import Services.UniversityService;
 
+import java.sql.SQLException;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -12,7 +16,7 @@ public class Main {
         DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
         LocalDate startDate = LocalDate.parse("2024-06-21",dateTimeFormatter);
         LocalDate endDate = LocalDate.parse("2024-07-21",dateTimeFormatter);
-*/
+
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd");
         Date startDate = null;
         Date endDate = null;
@@ -35,8 +39,31 @@ public class Main {
        // editionService.store(editions);
         //editionService.store(editions);
        // editionService.remove(4);
+
         System.out.println(editionService.show(3).toString());
         //System.out.println(editionService.index().get(1).getName());
+
+
+
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd");
+        Date startDate = null;
+        Date endDate = null;
+        try {
+            startDate = simpleDateFormat.parse("2024-06-21");
+        } catch (ParseException e) {
+            throw new RuntimeException(e);
+        }
+
+        UniversityService universityService = new UniversityService();
+        University university = new University();
+        university.setUniversityName("colha");
+        university.setFoundationData(startDate);
+        universityService.update(3,university);
+
+ */
+        CollegeService collegeService = new CollegeService();
+        System.out.println(collegeService.show(1).getFoundationData());
+
 
     }
 }

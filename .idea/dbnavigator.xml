@@ -6,7 +6,7 @@
   </component>
   <component name="DBNavigator.Project.DataEditorManager">
     <record-view-column-sorting-type value="BY_INDEX" />
-    <value-preview-text-wrapping value="true" />
+    <value-preview-text-wrapping value="false" />
     <value-preview-pinned value="false" />
   </component>
   <component name="DBNavigator.Project.DatabaseBrowserManager">
@@ -33,6 +33,16 @@
     <filter-actions connection-id="0d091914-d68e-473a-9dc8-0995c03fd28a" dataset="sistemadegestaoacademica.editions" active-filter-id="">
       <filter id="ba32c74e-b84c-4c5b-a0cb-64260d78bb77" name="Filter 1" temporary="false" custom-name="false" type="basic" join-type="AND">
         <condition column="idEdition" operator="=" value="" active="true" />
+      </filter>
+    </filter-actions>
+    <filter-actions connection-id="0d091914-d68e-473a-9dc8-0995c03fd28a" dataset="sistemadegestaoacademica.colleges" active-filter-id="09abd640-502f-496a-8c33-68ac830fc1bc">
+      <filter id="09abd640-502f-496a-8c33-68ac830fc1bc" name="Filter 1" temporary="false" custom-name="false" type="basic" join-type="AND">
+        <condition column="idCollege" operator="=" value="" active="true" />
+      </filter>
+    </filter-actions>
+    <filter-actions connection-id="0d091914-d68e-473a-9dc8-0995c03fd28a" dataset="sistemadegestaoacademica.university" active-filter-id="de44e199-f5cf-49a5-89a7-bdc037ea76eb">
+      <filter id="de44e199-f5cf-49a5-89a7-bdc037ea76eb" name="Filter 1" temporary="false" custom-name="false" type="basic" join-type="AND">
+        <condition column="idUniversity" operator="=" value="" active="true" />
       </filter>
     </filter-actions>
   </component>
