@@ -2,6 +2,7 @@ import Model.Editions;
 import Model.University;
 import Services.CollegeService;
 import Services.EditionService;
+import Services.Encriptation;
 import Services.UniversityService;
 
 import java.sql.SQLException;
@@ -61,8 +62,13 @@ public class Main {
         universityService.update(3,university);
 
  */
-        CollegeService collegeService = new CollegeService();
-        System.out.println(collegeService.show(1).getFoundationData());
+
+        /*CollegeService collegeService = new CollegeService();
+        System.out.println(collegeService.show(1).getFoundationData());*/
+        Encriptation encriptation = new Encriptation();
+        System.out.println(encriptation.encryptPassword("Lukoki Daniel"));
+        System.out.println(encriptation.encryptPassword("Lukoki Daniel"));
+
 
 
     }

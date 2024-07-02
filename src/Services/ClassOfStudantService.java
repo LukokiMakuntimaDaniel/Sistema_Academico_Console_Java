@@ -4,7 +4,7 @@ import Model.Classes;
 
 import java.util.List;
 
-public class ClassOfStudantService {
+public class ClassOfStudantService  {
     public List<Classes> index(){
 
         return null;
